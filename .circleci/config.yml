@@ -8,12 +8,6 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "Set Environment Variables"
-          command: |
-            echo 'export BROWSERSTACK_USERNAME=$BROWSERSTACK_USERNAME' >> $BASH_ENV
-            echo 'export BROWSERSTACK_ACCESS_KEY=$BASH_ENV' >> $BASH_ENV
-            source $BASH_ENV
-      - run:
           name: "Install Dependencies"
           command: npm install
       - run:
