@@ -1,7 +1,7 @@
-userName: your_userName
-accessKey: your_userName
-platforms:
-  - os: Windows
-    osVersion: 11
-    browserName: chrome
-    browserVersion: latest
+userName: prateekkumar_AcHDE3
+accessKey: qhPagCtiShzfSEos48mF
+buildName: testbuild
+projectName: Vignesh Sample Project
+CUSTOM_TAG_1: "CT1"
+testObservability: true
+browserstackAutomation: true
